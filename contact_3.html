@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--Ceci est un commentaire en html-->
+<html>
+<head>
+<title>
+    Contact
+    
+</title>
+<meta charset="utf-8"/>
+
+</head>
+<body>
+    <div align="center">
+    <img width="50%" alt="logo gk" title="global knowledge" src="https://tse1.mm.bing.net/th/id/OIP.y8LIWyzl3EegH0XW8wm2aQAAAA?pid=ImgDet&rs=1"/></div>
+<form method="post" action="traitement.php">
+    <div class="form-group">
+    <table align="center">
+        <tr>
+        <td><label for="nom">Votre nom</label></td>
+        <td><input class="form-controls" id="nom" type="text" placeholder="votre nom" name="nom"/></td>
+        </tr>
+        <tr>
+        <td><label for="prenom">Votre prénom</label></td>
+        <td><input class="form-controls"  id="prenom" type="text" placeholder="votre prenom" name="prenom"/></td></tr>
+        <tr>
+            <td>
+                <label for="email"> Email </label></td>
+                <td><input class="form-controls" id="email" type="email" placeholder="votre email" name="email"/>
+            </td> 
+        </tr>
+        <tr><td><label for="tel">Teléphone</label>
+        </td>
+    <td><input id="tel" type="text" placeholder="votre numéro de téléphone" name="tel"/></td></tr>
+        <tr>
+            <td><label> Pays : </label></td>
+                <td>
+                    France <input type="radio" value="France" name="pays"/>
+                    Autre <input type="radio" value="Autre" name="pays"/>
+                </td>
+            </tr>
+        <tr>
+            <td><label>Votre message</label></td>
+            <td><textarea cols="22" rows="10"placeholder="votre message"></textarea></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" class="btn btn success" value="Envoyer"/>
+            </td>
+            <td>
+                <input type="reset" class="btn btn danger" value="annuler"/>
+            </td>
+        </tr>
+        
+    </table>
+    </div>
+</form>
